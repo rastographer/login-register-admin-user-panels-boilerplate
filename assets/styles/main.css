@@ -1,0 +1,212 @@
+ /* Custom styles */
+ body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #3498db;
+}
+
+.navbar-text {
+    color: #fff;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1682686580849-3e7f67df4015?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;            
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.course-card {
+    border: none;
+}
+
+.course-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card {
+    border: none;
+}
+
+.testimonial-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card {
+    border: none;
+}
+
+.blog-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.map {
+    border: none;
+}
+
+footer {
+    background-color: #1f2427;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-logo img {
+    width: 225px;
+    margin-bottom: 15px;
+}
+
+.nav-logo img {
+    width: 225px;
+}
+
+.course-image-container {
+    height: 100px; /* Set the maximum height */
+    overflow: hidden;
+    text-align: center;
+}
+
+.course-image {
+    max-width: 100%;
+    height: 100px;
+    vertical-align: middle;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.rounded-circle-img {
+    width: 50px; /* Set a fixed width for the circular images */
+    height: 50px; /* Set a fixed height for the circular images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%; /* Create circular shape */
+}
+
+.rounded-circle-profile {
+    width: 100px; /* Set a fixed width for the circular images */
+    height: 100px; /* Set a fixed height for the circular images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%; /* Create circular shape */
+}
+
+.card-img-top {
+    max-width: 100%;
+    max-height: 200px;
+    vertical-align: middle;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.list-style {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+}
+
+    /* WhatsApp Button Styles */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.float {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.wapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 60px;
+    right: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my_float {
+    margin-top: 5px;
+}
+
+/* Add styles for the floating sidebar ad */
+.floating-ads {
+    position: sticky;
+    top: 20px; /* Adjust as needed */
+    width: 300px;
+    height: 600px;
+    background-color: #f8f9fa; /* Change background color as needed */
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    margin-left: 10px; /* Adjust to separate the ad from the article */
+}
+
+.floating-ads img {
+    max-width: 100%;
+    height: auto;
+}
+
+.floating-ad {
+    position: relative;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; /* Adjust the top distance as needed */
+    z-index: 1000; /* Adjust the z-index if necessary */
+}
+
+/* Add styles for breadcrumb navigation */
+.breadcrumb {
+    background-color: #f8f9fa; /* Change background color as needed */
+    padding: 10px;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.breadcrumb-item:last-child {
+    font-weight: bold;
+}
+
+.counter-input {
+    width: 50px;
+    text-align: center;
+}
+
+/* Hide the element with class 'hide-on-mobile' on screens smaller than 768px (typical for mobile devices) */
+@media only screen and (max-width: 992pxpx) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
