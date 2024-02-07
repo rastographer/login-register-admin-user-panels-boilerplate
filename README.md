@@ -30,9 +30,9 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'your_database_name');
 ```
-## Import the database schema from database.sql to set up the required tables.
+Import the database schema from database.sql to set up the required tables.
 
-Start the PHP server:
+## Start the PHP server:
 
 ```php -S localhost:8000```
 
