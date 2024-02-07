@@ -41,8 +41,8 @@ Access the application in your browser at http://localhost:8000.
 ## Usage
 
 Register as a new user to create an account.
-- Log in with your credentials to access your user panel.
-- Admins can log in to the admin panel using the provided admin credentials.
+- Log in with your credentials to access your user panel. Demo user: [user@example.com / 12345678]
+- Admins can log in to the admin panel using the url: yourdomain.com/admin. Demo admin: [admin@example.com / 12345678]
 - Manage user accounts, view user data, and perform administrative tasks from the admin panel.
 
 ## Contributing
