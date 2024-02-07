@@ -88,7 +88,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `role`, `full_name`, `username`, `email`, `password`, `phone`, `status`, `created_at`) VALUES
 (1, 'super_admin', 'Super Admin', 'admin', 'admin@example.com', '$2a$12$9dcN2a6duwJx/DPsMSfpBeuFZQ2diNLyDWkIcDRO61VuGuwdFQB9i', '0000000000', 'active', '2024-02-07 20:34:11.621676'),
-(5, 'user', 'New User', 'user', 'user@example.com', '$2y$10$WZQgsbyOD8beH.e71NtJFeHyhUhS/YR/uA9uJ7V0O5icv39h7hoTS', '0000000000', 'active', '2024-02-07 20:34:03.143865');
+(5, 'user', 'New User', 'user', 'user@example.com', '$2y$10$WZQgsbyOD8beH.e71NtJFeHyhUhS/YR/uA9uJ7V0O5icv39h7hoTS', '1000000000', 'active', '2024-02-07 20:34:03.143865');
 
 --
 -- Indexes for dumped tables
